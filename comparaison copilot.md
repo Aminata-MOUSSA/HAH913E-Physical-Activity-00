@@ -93,3 +93,5 @@ plt.show()
 
 ```
 ## Comparaison
+Le code proposé par Copilot n'ignore pas les lignes commençant par # lors de la lecture du fichier .csv. Il ne vérifie pas non plus la forme du dataset. Copilot ne calcule pas la fréquence car il ne suppose pas la régularité des données. Copilot met les valeurs négative à 0 pour suivre la définition scientifique standard du ENMO. Copilot garde les unités en g.s au lieu de les convertir en g.min. Copilot ne sépare pas le ENMO brut et le ENMO intégré. Copilot fait le code sans utiliser de fonctions.
+Copilot propose alors un code plus rigoureux et plus rapide mais moins structuré, il garde le ENMO >= 0 
